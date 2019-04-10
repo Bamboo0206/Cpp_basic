@@ -36,7 +36,7 @@ iterator MyMax(iterator it_first, iterator it_last, Pred myless)
 int main() 
 { 
 	int a[] = { 35,7,13,19,12 }; 
-	cout << *MyMax(a, a + 5, MyLess()) << endl; 
-	cout << *MyMax(a, a + 5, MyCompare) << endl;
+	cout << *MyMax(a, a + 5, MyLess()) << endl; //传入函数对象类
+	cout << *MyMax(a, a + 5, MyCompare) << endl;//传入函数
 	return 0; 
 }
