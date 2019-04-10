@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-IO流实验", "4-IO流实
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2重载++和--（对point）(顺便重载cin,cout)", "5.2重载++和--（对point）(顺便重载cin,cout)\5.2重载++和--（对point）(顺便重载cin,cout).vcxproj", "{CFD4CAD2-BCD9-48FD-B1E2-E7F196E7AEBA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_list", "STL_list\STL_list.vcxproj", "{A548B86A-3E17-498D-BB59-5C8C3887CC19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{CFD4CAD2-BCD9-48FD-B1E2-E7F196E7AEBA}.Release|x64.Build.0 = Release|x64
 		{CFD4CAD2-BCD9-48FD-B1E2-E7F196E7AEBA}.Release|x86.ActiveCfg = Release|Win32
 		{CFD4CAD2-BCD9-48FD-B1E2-E7F196E7AEBA}.Release|x86.Build.0 = Release|Win32
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Debug|x64.ActiveCfg = Debug|x64
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Debug|x64.Build.0 = Debug|x64
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Debug|x86.ActiveCfg = Debug|Win32
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Debug|x86.Build.0 = Debug|Win32
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Release|x64.ActiveCfg = Release|x64
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Release|x64.Build.0 = Release|x64
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Release|x86.ActiveCfg = Release|Win32
+		{A548B86A-3E17-498D-BB59-5C8C3887CC19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
