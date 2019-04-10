@@ -5,6 +5,8 @@
 
 #include<iostream>
 #include<string>
+#include<ios>     // for <streamsize>
+#include<limits>  // for numeric_limits
 using namespace std;
 
 int main()
@@ -15,7 +17,29 @@ int main()
 	while (!correct)
 	{
 		cout << "请输入价格:";
-		cin >> guess;//待改 输入合法性验证
+	//输入合法性验证
+		char c ;
+		c = cin.peek();
+		if ((c >= '0') && (c <= '9'))
+		{
+			cin >> guess;//cin读取int不会取走缓冲区中的\n
+			c = cin.peek();
+			if (c != '\n')
+			{
+				printf("input error!\n");
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');//放弃包含换行符的输入流中的所有内容
+				continue;
+			}
+			cin.get(c);//吞回车
+		}
+		else
+		{
+			printf("input error!\n");
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');//放弃包含换行符的输入流中的所有内容
+			continue;
+			//exit(0);
+		}
+		
 		if (price == guess)
 		{
 			correct = true;
