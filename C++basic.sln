@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_list", "STL_list\STL_li
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数对象", "函数对象\函数对象.vcxproj", "{354ED5B4-E352-4F2D-9BCB-DFE42DB9F704}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "测试同名隐藏-虚函数实函数-继承多态", "测试同名隐藏-虚函数实函数-继承多态\测试同名隐藏-虚函数实函数-继承多态.vcxproj", "{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-IO流实验v2-异常处理", "4-IO流实验v2-异常处理\4-IO流实验v2-异常处理.vcxproj", "{D3170D6F-1CC9-4C2A-9395-D6423A56235D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{354ED5B4-E352-4F2D-9BCB-DFE42DB9F704}.Release|x64.Build.0 = Release|x64
 		{354ED5B4-E352-4F2D-9BCB-DFE42DB9F704}.Release|x86.ActiveCfg = Release|Win32
 		{354ED5B4-E352-4F2D-9BCB-DFE42DB9F704}.Release|x86.Build.0 = Release|Win32
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Debug|x64.ActiveCfg = Debug|x64
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Debug|x64.Build.0 = Debug|x64
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Debug|x86.Build.0 = Debug|Win32
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Release|x64.ActiveCfg = Release|x64
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Release|x64.Build.0 = Release|x64
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Release|x86.ActiveCfg = Release|Win32
+		{6FC0C13D-4E83-4EF5-9602-F7B5D3B025D4}.Release|x86.Build.0 = Release|Win32
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Debug|x64.ActiveCfg = Debug|x64
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Debug|x64.Build.0 = Debug|x64
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Debug|x86.Build.0 = Debug|Win32
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Release|x64.ActiveCfg = Release|x64
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Release|x64.Build.0 = Release|x64
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Release|x86.ActiveCfg = Release|Win32
+		{D3170D6F-1CC9-4C2A-9395-D6423A56235D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
