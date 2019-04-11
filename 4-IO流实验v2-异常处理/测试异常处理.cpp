@@ -38,7 +38,7 @@ int main()
 		}
 		catch (runtime_error &err)//捕获runtime_error类型的error
 		{
-			cerr << err.what() << endl;
+			cerr << err.what() << endl;//不会输出东西？？？
 			cin.clear();//使cin有效
 			cerr << "***已使用cin.clear()***\n"
 				<< "cin.eof():" << cin.eof() << endl
