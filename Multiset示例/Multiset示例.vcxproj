@@ -23,6 +23,7 @@
     <ProjectGuid>{3B4A6802-25BA-4CAD-926A-5F5D83E19822}</ProjectGuid>
     <RootNamespace>Multiset示例</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>STL_关联容器_Multiset</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
