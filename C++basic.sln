@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-IO流实验", "4-IO流实
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2重载++和--（对point）(顺便重载cin,cout)", "5.2重载++和--（对point）(顺便重载cin,cout)\5.2重载++和--（对point）(顺便重载cin,cout).vcxproj", "{CFD4CAD2-BCD9-48FD-B1E2-E7F196E7AEBA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_list", "STL_list\STL_list.vcxproj", "{A548B86A-3E17-498D-BB59-5C8C3887CC19}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_顺序容器_list", "STL_list\STL_list.vcxproj", "{A548B86A-3E17-498D-BB59-5C8C3887CC19}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数对象", "函数对象\函数对象.vcxproj", "{354ED5B4-E352-4F2D-9BCB-DFE42DB9F704}"
 EndProject
@@ -21,7 +21,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-IO流实验v2-异常处�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "异常处理", "异常处理\异常处理.vcxproj", "{D212D145-DF6D-4AF9-8819-2BDD00879BE6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multiset示例", "Multiset示例\Multiset示例.vcxproj", "{3B4A6802-25BA-4CAD-926A-5F5D83E19822}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_关联容器_Multiset", "Multiset示例\Multiset示例.vcxproj", "{3B4A6802-25BA-4CAD-926A-5F5D83E19822}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_关联容器_set", "STL_关联容器_set\STL_关联容器_set.vcxproj", "{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{3B4A6802-25BA-4CAD-926A-5F5D83E19822}.Release|x64.Build.0 = Release|x64
 		{3B4A6802-25BA-4CAD-926A-5F5D83E19822}.Release|x86.ActiveCfg = Release|Win32
 		{3B4A6802-25BA-4CAD-926A-5F5D83E19822}.Release|x86.Build.0 = Release|Win32
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Debug|x64.ActiveCfg = Debug|x64
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Debug|x64.Build.0 = Debug|x64
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Debug|x86.Build.0 = Debug|Win32
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Release|x64.ActiveCfg = Release|x64
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Release|x64.Build.0 = Release|x64
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Release|x86.ActiveCfg = Release|Win32
+		{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

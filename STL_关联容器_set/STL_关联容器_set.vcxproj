@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{3B4A6802-25BA-4CAD-926A-5F5D83E19822}</ProjectGuid>
-    <RootNamespace>Multiset示例</RootNamespace>
+    <ProjectGuid>{9958867B-DF27-4F5E-AB49-BE864BCA2C1D}</ProjectGuid>
+    <RootNamespace>STL关联容器set</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>STL_关联容器_Multiset</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -116,8 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Multiset_Example.cpp" />
-    <ClCompile Include="测试pair模板.cpp" />
+    <ClCompile Include="set示例_不允许有重复元素.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

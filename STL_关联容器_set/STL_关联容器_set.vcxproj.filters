@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Multiset_Example.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="测试pair模板.cpp">
+    <ClCompile Include="set示例_不允许有重复元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
