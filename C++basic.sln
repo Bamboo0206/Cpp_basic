@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-IO流实验v2-异常处�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "异常处理", "异常处理\异常处理.vcxproj", "{D212D145-DF6D-4AF9-8819-2BDD00879BE6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 C++基础知识实验-矩阵", "1 C++基础知识实验-矩阵\1 C++基础知识实验-矩阵.vcxproj", "{39D75E63-024D-4809-B8E6-BC92BB78F3EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{D212D145-DF6D-4AF9-8819-2BDD00879BE6}.Release|x64.Build.0 = Release|x64
 		{D212D145-DF6D-4AF9-8819-2BDD00879BE6}.Release|x86.ActiveCfg = Release|Win32
 		{D212D145-DF6D-4AF9-8819-2BDD00879BE6}.Release|x86.Build.0 = Release|Win32
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Debug|x64.ActiveCfg = Debug|x64
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Debug|x64.Build.0 = Debug|x64
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Debug|x86.Build.0 = Debug|Win32
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x64.ActiveCfg = Release|x64
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x64.Build.0 = Release|x64
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x86.ActiveCfg = Release|Win32
+		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
