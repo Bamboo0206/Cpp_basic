@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "异常处理", "异常处�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 C++基础知识实验-矩阵", "1 C++基础知识实验-矩阵\1 C++基础知识实验-矩阵.vcxproj", "{39D75E63-024D-4809-B8E6-BC92BB78F3EE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1类与对象-圆形-v2", "2.1类与对象-圆形-v2\2.1类与对象-圆形-v2.vcxproj", "{46BC44C7-1B04-4247-A1DF-677C8AD12623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x64.Build.0 = Release|x64
 		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x86.ActiveCfg = Release|Win32
 		{39D75E63-024D-4809-B8E6-BC92BB78F3EE}.Release|x86.Build.0 = Release|Win32
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Debug|x64.ActiveCfg = Debug|x64
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Debug|x64.Build.0 = Debug|x64
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Debug|x86.ActiveCfg = Debug|Win32
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Debug|x86.Build.0 = Debug|Win32
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x64.ActiveCfg = Release|x64
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x64.Build.0 = Release|x64
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x86.ActiveCfg = Release|Win32
+		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
