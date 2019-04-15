@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{46BC44C7-1B04-4247-A1DF-677C8AD12623}</ProjectGuid>
-    <RootNamespace>My21类与对象圆形v2</RootNamespace>
+    <ProjectGuid>{25CF2275-CEC9-45F2-AD48-186CE058580F}</ProjectGuid>
+    <RootNamespace>My22类与对象矩阵</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2.1类与对象-圆形-v2.cpp" />
+    <ClCompile Include="2.2 类与对象-矩阵.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

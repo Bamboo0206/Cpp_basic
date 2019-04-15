@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 C++基础知识实验-矩
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1类与对象-圆形-v2", "2.1类与对象-圆形-v2\2.1类与对象-圆形-v2.vcxproj", "{46BC44C7-1B04-4247-A1DF-677C8AD12623}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2 类与对象-矩阵", "2.2 类与对象-矩阵\2.2 类与对象-矩阵.vcxproj", "{25CF2275-CEC9-45F2-AD48-186CE058580F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x64.Build.0 = Release|x64
 		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x86.ActiveCfg = Release|Win32
 		{46BC44C7-1B04-4247-A1DF-677C8AD12623}.Release|x86.Build.0 = Release|Win32
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Debug|x64.ActiveCfg = Debug|x64
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Debug|x64.Build.0 = Debug|x64
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Debug|x86.ActiveCfg = Debug|Win32
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Debug|x86.Build.0 = Debug|Win32
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Release|x64.ActiveCfg = Release|x64
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Release|x64.Build.0 = Release|x64
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Release|x86.ActiveCfg = Release|Win32
+		{25CF2275-CEC9-45F2-AD48-186CE058580F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
