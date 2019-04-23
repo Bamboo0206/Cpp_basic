@@ -57,13 +57,23 @@ void Delete_Matrix(int (*pMatrix)[5])
 		delete[]pMatrix;
 }
 
-void Init_Matrix(int(*pMatrix)[5])
+void Init_Matrix(int(*pMatrix)[5])//输入矩阵
 {
 	for (int row = 0; row < 4; row++)
 	{
 		for (int col = 0; col < 5; col++)
 		{
-			cin >> pMatrix[row][col];
+			if ((cin >> pMatrix[row][col]))
+				continue;
+			while (cin.fail())//循环是为了真的读到数据以后才读下一个数据
+			{
+				cerr << "input error!" << endl;
+				cin.clear();//使cin有效
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');//放弃包含换行符的输入流中的所有内容
+				cerr << "请重新输入" << endl;
+				cin >> pMatrix[row][col];
+
+			}
 		}
 	}
 }
