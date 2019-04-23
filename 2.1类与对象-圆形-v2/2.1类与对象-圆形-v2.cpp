@@ -168,7 +168,7 @@ int main()
 
 	return 0;
 }
-void check_cin()
+void check_cin()//输入合法性检验
 {
 	if (!cin)
 	{
