@@ -100,7 +100,12 @@ Point operator--(Point & p, int)//后置类型，全局函数，Point类的友�
 istream & operator>>(istream & is, Point & p)
 {
 	cout << "cin重载函数called！\t\t" << endl;
-	is >> p.x >> p.y;//待改 改为读字符串，还有输入正确性检验
+	is >> p.x >> p.y;
+	if (!is)//输入正确性检验
+	{
+		cout << "input error！" << endl;
+		exit(0);
+	}
 	return is;
 }
 
@@ -114,6 +119,7 @@ ostream & operator<<(ostream & os, const Point & p)
 int main()
 {
 	Point p;
+	cout << "请输入两个整数作为点的坐标：" << endl;
 	cin >> p;
 	cout << "***************测试++******************\n";
 	cout << (p++) << endl;  //等价于 p.operator++(0); 
