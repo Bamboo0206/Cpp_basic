@@ -24,7 +24,7 @@ int main()
 		{
 			cin >> guess;//cin读取int不会取走缓冲区中的\n
 			c = cin.peek();
-			if (c != '\n')
+			if (!(c == '\n' || c == '\t' || c == ' '))
 			{
 				printf("input error!\n");
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');//放弃包含换行符的输入流中的所有内容

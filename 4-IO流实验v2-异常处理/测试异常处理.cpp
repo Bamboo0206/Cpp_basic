@@ -9,12 +9,14 @@
 #include<limits>  // for numeric_limits
 #include<stdexcept> //for runtime_error
 using namespace std;
+#define DEBUG 1 //设为1则输出调试信息
 
 int main()
 {
 	const int price = 2019;//设定的商品价格
 	int guess = 0;
 	bool correct = false;
+	if(DEBUG)
 	cerr << "cin.eof():" << cin.eof() << endl
 		<< "cin.fail():" << cin.fail() << endl
 		<< "cin.bad():" << cin.bad() << endl
@@ -28,6 +30,7 @@ int main()
 			
 			if (!(cin >> guess))//cin >> guess外面要加括号，可能是优先级的问题？
 			{
+				if(DEBUG)
 				cerr << "cin.eof():" << cin.eof() << endl
 					<< "cin.fail():" << cin.fail() << endl
 					<< "cin.bad():" << cin.bad() << endl
@@ -40,6 +43,7 @@ int main()
 		{
 			cerr << err.what() << endl;//不会输出东西？？？
 			cin.clear();//使cin有效
+			if (DEBUG)
 			cerr << "***已使用cin.clear()***\n"
 				<< "cin.eof():" << cin.eof() << endl
 				<< "cin.fail():" << cin.fail() << endl
