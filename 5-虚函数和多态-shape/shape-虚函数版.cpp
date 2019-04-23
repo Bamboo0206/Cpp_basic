@@ -125,12 +125,14 @@ void square::set(double len, double y)
 	rectangle::set(len, len);
 }
 
+void check_cin();//输入合法性检验
+
 int main()
 {
 	//shape a;//error 抽象类不允许实例化
 	shape *figure = NULL;
 	string type;
-	cout << "请输入形状的类别：";
+	cout << "请输入形状的类别(rectangle/square/circle)：";
 	cin >> type;
 	if (type == "rectangle")//string类==运算符重载
 	{
@@ -138,6 +140,7 @@ int main()
 		figure = new rectangle;
 		cout << "请输入矩形长和宽：";
 		cin >> x >> y;
+		check_cin();
 		figure->set(x, y);
 		cout << "面积为：" << figure->area() << endl;
 	}
@@ -147,6 +150,7 @@ int main()
 		figure = new square;
 		cout << "请输入正方形的边长：";
 		cin >> len;
+		check_cin();
 		figure->set(len);
 		cout << "面积为：" << figure->area() << endl;
 	}
@@ -156,9 +160,23 @@ int main()
 		figure = new circle;
 		cout << "请输入圆的半径：";
 		cin >> len;
+		check_cin();
 		figure->set(len);
 		cout << "面积为：" << figure->area() << endl;//调用的是rectangle的面积计算函数
 	}
+	else
+	{
+		cout << "不存在的类型" << endl;
+	}
 	if (figure) delete figure;
 	return 0;
+}
+
+void check_cin()//输入合法性检验
+{
+	if (!cin)
+	{
+		cout << "input error！" << endl;
+		exit(0);
+	}
 }
