@@ -4,6 +4,8 @@
 （2） 实现 Point 类重载＋＋和――运算符：
  ++p，--p，p++，p--；
  ＋＋和――分别表示 x，y 增加或减少 1。*/
+
+/*详细分析见OneNote*/
 #include<iostream>
 using namespace std;
 
