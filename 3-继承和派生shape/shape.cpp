@@ -134,10 +134,19 @@ void square::set(double len)
 	rectangle::set(len, len);
 }
 
+void check_cin()//输入合法性检验
+{
+	if (!cin)
+	{
+		cout << "input error！" << endl;
+		exit(0);
+	}
+}
+
 int main()
 {
 	string type;
-	cout << "请输入形状的类别：";
+	cout << "请输入形状的类别(rectangle/square/circle)：";
 	cin >> type;
 	if (type == "rectangle")
 	{
@@ -145,6 +154,7 @@ int main()
 		rectangle figure;//创建派生类的对象
 		cout << "请输入矩形长和宽：";
 		cin >> x >> y;
+		check_cin();
 		figure.set(x, y);
 		cout << "面积为：" << figure.area() << endl;
 	}
@@ -154,6 +164,7 @@ int main()
 		square figure;
 		cout << "请输入正方形的边长：";
 		cin >> len;
+		check_cin();
 		figure.set(len);
 		cout << "面积为：" << figure.area() << endl;
 	}
@@ -163,8 +174,13 @@ int main()
 		circle figure;
 		cout << "请输入圆的半径：";
 		cin >> len;
+		check_cin();
 		figure.set(len);
 		cout << "面积为：" << figure.area() << endl;
+	}
+	else
+	{
+		cout << "不存在的类型" << endl;
 	}
 	return 0;
 }
