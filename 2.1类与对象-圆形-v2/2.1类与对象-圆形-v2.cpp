@@ -69,6 +69,7 @@ void Point::SetPoint(int x = 0, int y = 0)
 	this->y = y;
 }
 
+void check_cin();
 
 /*（2） 定义一个圆形类，其属性包括圆心和半径；*/
 class circle {
@@ -128,28 +129,32 @@ int main()
 	{
 		cin.putback(c);//将字符c放回缓冲区
 		cin >> x >> y;
+		check_cin();//输入合法性检验
 		point_temp.SetPoint(x, y);
 	}
 	cout << "Please input radius:\n";
 	cin >> r;
+	check_cin();
 	circle C1(point_temp, r);
 
 	point_temp.SetPoint(0, 0);
 
 	cout << "Please input coordinate of the center of the circle 2 (the default setting is (0,0):\n";
-	cin.get(c);//吞回车？
+	cin.get(c);//吞回车
 	c = 0;
 	cin.get(c);
 	if (c != '\n')
 	{
 		cin.putback(c);
 		cin >> x >> y;
+		check_cin();
 		point_temp.SetPoint(x, y);
 	}
 	else
 		point_temp.SetPoint();//使用默认参数（0，0）
 	cout << "Please input radius:\n";
 	cin >> r;
+	check_cin();
 	circle C2(point_temp, r);
 
 	double len = 0;
@@ -162,4 +167,12 @@ int main()
 		cout << "两个圆相离\n";
 
 	return 0;
+}
+void check_cin()
+{
+	if (!cin)
+	{
+		cout << "input error！" << endl;
+		exit(0);
+	}
 }
