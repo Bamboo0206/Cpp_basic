@@ -7,11 +7,14 @@
 #include<string>
 #include<ios>     // for <streamsize>
 #include<limits>  // for numeric_limits
+#include<ctime>
 using namespace std;
 
 int main()
 {
-	const int price = 2019;//设定的商品价格
+	srand((unsigned int)time(NULL));
+	int price = rand()%1000;//设定的商品价格
+	price++;
 	int guess = 0;
 	bool correct = false;
 	while (!correct)

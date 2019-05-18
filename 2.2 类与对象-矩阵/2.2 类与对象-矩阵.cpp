@@ -234,5 +234,5 @@ int main()
 	delete pA3;
 	cout << "end!\n";
 	return 0;
-	/*在return 0之后自动调用析构函数，先定义的后析构*/
+	/*在return 0前自动调用析构函数，先定义的后析构*/
 }

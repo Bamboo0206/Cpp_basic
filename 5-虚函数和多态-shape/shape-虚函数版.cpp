@@ -130,7 +130,7 @@ void check_cin();//输入合法性检验
 int main()
 {
 	//shape a;//error 抽象类不允许实例化
-	shape *figure = NULL;
+	shape *figure = NULL;//基类指针
 	string type;
 	cout << "请输入形状的类别(rectangle/square/circle)：";
 	cin >> type;

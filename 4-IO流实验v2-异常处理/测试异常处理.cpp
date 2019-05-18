@@ -8,12 +8,17 @@
 #include<ios>     // for <streamsize>
 #include<limits>  // for numeric_limits
 #include<stdexcept> //for runtime_error
+#include<ctime>
+
 using namespace std;
 #define DEBUG 1 //设为1则输出调试信息
 
 int main()
 {
-	const int price = 2019;//设定的商品价格
+	srand((unsigned int)time(NULL));
+	int price = rand() % 1000;//设定的商品价格
+	price++;
+	//const int price = 2019;//设定的商品价格
 	int guess = 0;
 	bool correct = false;
 	if(DEBUG)
