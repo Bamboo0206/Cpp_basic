@@ -2,6 +2,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
+void fun()
+{
+	cout << "xxx";
+}
 int main()
 {
 	stringstream ss;
@@ -9,6 +13,7 @@ int main()
 
 	cout.rdbuf(ss.rdbuf());//输出重定向到stringstream
 	cout << 123 << 456 << 789;
+	fun();//其他函数里的cout也会被改
 	string s(ss.str());
 	//cout <<"s="<< s << endl;//这句是不会打印到屏幕上的，因为cout重定向了
 
@@ -26,7 +31,7 @@ int main()
 	string temp;
 	iss >> temp;//读到\n停止，但不取走\n
 	cout << temp;
-
+	
 	char c[500];
 	iss.getline(c, 500, '\0');
 	cout << c;
