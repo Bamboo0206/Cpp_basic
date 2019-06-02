@@ -18,7 +18,6 @@ int main()
 	srand((unsigned int)time(NULL));
 	int price = rand() % 1000;//设定的商品价格
 	price++;
-	//const int price = 2019;//设定的商品价格
 	int guess = 0;
 	bool correct = false;
 	if(DEBUG)
@@ -30,23 +29,24 @@ int main()
 	while (!correct)
 	{
 		cout << "请输入价格:";
-		try
+		try/*异常处理*/
 		{
-			
-			if (!(cin >> guess))//cin >> guess外面要加括号，可能是优先级的问题？
+			/*检查输入合法性*/
+			if (!(cin >> guess))//basic_ios的运算符重载函数operator void *() const 和 bool operator!() const使得流对象可作为判断语句的内容。
 			{
 				if(DEBUG)
+					/*打印调试信息*/
 				cerr << "cin.eof():" << cin.eof() << endl
 					<< "cin.fail():" << cin.fail() << endl
 					<< "cin.bad():" << cin.bad() << endl
 					<< "cin.good():" << cin.good() << endl;
-					//<< "guess=" << guess << endl;//cin错误时guess被置为0
-				throw runtime_error("非法输入！");//抛出异常
+				throw runtime_error("非法输入！");//输入不合法，抛出异常
 			}
 		}
+		/*异常处理*/
 		catch (runtime_error &err)//捕获runtime_error类型的error
 		{
-			cerr << err.what() << endl;//不会输出东西？？？
+			cerr << err.what() << endl;
 			cin.clear();//使cin有效
 			if (DEBUG)
 			cerr << "***已使用cin.clear()***\n"
@@ -60,6 +60,7 @@ int main()
 			continue;
 		}
 
+		/*如果输入合法，则比较大小*/
 		if (price == guess)
 		{
 			correct = true;
@@ -74,5 +75,7 @@ int main()
 			cout << "猜测过高\n";
 		}
 	}
+
+	system("pause");
 	return 0;
 }

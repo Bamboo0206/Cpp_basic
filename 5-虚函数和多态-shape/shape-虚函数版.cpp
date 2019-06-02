@@ -169,6 +169,8 @@ int main()
 		cout << "不存在的类型" << endl;
 	}
 	if (figure) delete figure;
+
+	system("pause");
 	return 0;
 }
 

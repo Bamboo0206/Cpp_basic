@@ -165,7 +165,7 @@ int main()
 		cout << "两个圆相切\n";
 	else
 		cout << "两个圆相离\n";
-
+	system("pause");
 	return 0;
 }
 void check_cin()//输入合法性检验

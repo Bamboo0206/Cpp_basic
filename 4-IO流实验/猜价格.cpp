@@ -57,5 +57,7 @@ int main()
 			cout << "²Â²â¹ı¸ß\n";
 		}
 	}
+
+	system("pause");
 	return 0;
 }

@@ -21,7 +21,7 @@ public:
 	shape();
 	shape(const shape& s);
 	~shape();
-	void set() {};////在子类重载？
+	void set() {};////在子类重载
 	double area() { cout << "\t\t\t（基）shape面积计算函数\t" << this << endl; };//在子类重载？
 private:
 
@@ -182,5 +182,7 @@ int main()
 	{
 		cout << "不存在的类型" << endl;
 	}
+
+	system("pause");
 	return 0;
 }

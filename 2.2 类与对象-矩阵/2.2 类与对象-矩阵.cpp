@@ -233,6 +233,8 @@ int main()
 	delete pA2;
 	delete pA3;
 	cout << "end!\n";
+
+	system("pause");
 	return 0;
 	/*在return 0前自动调用析构函数，先定义的后析构*/
 }

@@ -49,6 +49,7 @@ int main()
 	Delete_Matrix(A2);
 	Delete_Matrix(A3);
 
+	system("pause");
 	return 0;
 }
 

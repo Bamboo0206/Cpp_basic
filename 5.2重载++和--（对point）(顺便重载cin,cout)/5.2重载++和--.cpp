@@ -134,5 +134,7 @@ int main()
 	cout << (--p) << endl;    //等价于 operator--(p); 
 	cout << p << endl;
 
+
+	system("pause");
 	return 0;
 }
